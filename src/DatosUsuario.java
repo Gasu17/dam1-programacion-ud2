@@ -21,40 +21,9 @@
         String mail = sc.nextLine() ;
         
         boolean emailValido = ProcesadorTexto.esEmailValido (mail);
-
-
-
-        if (age <= 0 || age>120) {
-            System.out.println("Edad invalida");
-        } else {
-                if (username.length() < 2 || username.length()> 25 ) {
-                    System.out.println("Nombre invalido");
-
-                } else {
-                    
-
-                if (emailValido )  {
-                System.out.println("Usuario creado: ");
-
-                Usuario usuario = new Usuario(username, age, mail) ;
-                usuario.mostrarInformacion();
-            } 
-            
-
-             }
-            
-           
-
-
-        }
-
+        boolean age
+        boolean username 
         
-        else {
-
-            System.out.println("El usuario no puede ser creado porque el email introducido no es válido, espabila");
-        }
-
-
 
 
         sc.close();

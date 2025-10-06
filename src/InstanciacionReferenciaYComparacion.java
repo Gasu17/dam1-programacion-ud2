@@ -72,7 +72,7 @@ public class InstanciacionReferenciaYComparacion {
         Cancion c5 = new Cancion("asd","asd") ; 
         Cancion c6 = c5 ; 
         System.out.println(c5 == c6); 
-         c6.setTitutlo("tumalditamadre");
+         c6.setTitutlo("Titanic");
          System.out.println(c5);
 
         // ================================
@@ -84,7 +84,10 @@ public class InstanciacionReferenciaYComparacion {
         //    Comenta la línea después de probar, porque lanzará un error.
 
         // Tu código aquí ↓
-        
+        Pelicula p3 = new Pelicula(); 
+        System.out.println(p3);
+        // p3.getTitulo();
+
     }
 }
 
@@ -92,23 +95,25 @@ public class InstanciacionReferenciaYComparacion {
 // RESPUESTAS DE REFLEXIÓN
 // ================================
 // Ejercicio 1: ¿Qué diferencia hay entre el constructor por defecto y el parametrizado?
-// Respuesta: ...
+// Respuesta: 
+     // el por defecto matiene valores defectos en el objeto, el parametrizado te permite introducir parametros especificos  en el objeto 
 
 // Ejercicio 2: ¿Por qué da false al comparar con == dos objetos con los mismos datos?
 // Respuesta: ...
+// porque son objetos distintos
 
 // Ejercicio 3: ¿Qué diferencia hay entre == y equals()? ¿Por qué ahora sí devuelve true?
 // Respuesta: ...
-
+// El == comprueba si es el mismo objeto, el equals solo comprueba si el contenido del objeto es el mismo
 // Ejercicio 4: ¿Por qué en Pelicula equals no funciona como en Cancion?
 // Respuesta: ...
-
+// Porque el contenido de la pelicula no es el mismo y en cancion si
 // Ejercicio 5: ¿Qué ocurre cuando modificas el objeto a través de c6? ¿Qué demuestra?
 // Respuesta: ...
-
+ // Demuestar que si modificas un parametro en una variable que fue creada igualandola a otra, en la otra variable tambien cambiara el valor del parametro
 // Ejercicio 6: ¿Qué error aparece al acceder a un método de p3 siendo null?
 // ¿Qué significa realmente que una variable valga null?
 // Respuesta: ...
-
+// Sint titulo ( 0 ) 
 
     

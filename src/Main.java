@@ -13,7 +13,7 @@ public class Main {
         // 2. Observa el error de compilación.
 
         // Tu código aquí ↓
-         System.out.println(cuenta.saldo);
+         //  System.out.println(cuenta.saldo);
         
 
         // ================================
@@ -35,7 +35,7 @@ public class Main {
         // 2. Observa el error de compilación.
 
         // Tu código aquí ↓
-            cuenta.registrarOperacion("Hackeo", 9999) ; 
+             // cuenta.registrarOperacion("Hackeo", 9999) ; 
 
         
 

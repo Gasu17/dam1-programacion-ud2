@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CalcularMedia",
+            "request": "launch",
+            "mainClass": "CalcularMedia",
+            "projectName": "dam1-programacion-ud2"
+        },
+        {
+            "type": "java",
+            "name": "EliminarDuplicados",
+            "request": "launch",
+            "mainClass": "EliminarDuplicados",
+            "projectName": "dam1-programacion-ud2"
+        },
+        {
+            "type": "java",
+            "name": "RachaMasLarga",
+            "request": "launch",
+            "mainClass": "RachaMasLarga",
+            "projectName": "dam1-programacion-ud2"
+        },
+        {
+            "type": "java",
+            "name": "FiltrarImpares",
+            "request": "launch",
+            "mainClass": "FiltrarImpares",
+            "projectName": "dam1-programacion-ud2"
+        },
+        {
+            "type": "java",
+            "name": "TablaMultiplicadoraMatriz",
+            "request": "launch",
+            "mainClass": "TablaMultiplicadoraMatriz",
+            "projectName": "dam1-programacion-ud2"
+        },
+        {
+            "type": "java",
+            "name": "MenuInteractivo",
+            "request": "launch",
+            "mainClass": "MenuInteractivo",
+            "projectName": "dam1-programacion-ud2"
+        },
+        {
+            "type": "java",
+            "name": "MenuInteractivo",
+            "request": "launch",
+            "mainClass": "MenuInteractivo",
+            "projectName": "dam1-programacion-ud2_36bdfd6f"
+        },
+        {
+            "type": "java",
+            "name": "AdivinaElNumero",
+            "request": "launch",
+            "mainClass": "AdivinaElNumero",
+            "projectName": "dam1-programacion-ud2_36bdfd6f"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
